@@ -4,6 +4,10 @@
     margin: 0;
     overflow: hidden;
 }
+@keyframes translatorX {
+    0%{transform: translateX(-200%);}
+    100%{transform: translateX(0%);}
+}
 body{
     font-family: "Poppins", sans-serif;
     background-image: url(../img/2150735504\ 1.png);
@@ -45,6 +49,7 @@ body{
     height: 25rem;
     display: flex;
     justify-content: space-around;
+    animation: translatorX 0.8s ease-in-out;
 }
 .titles{
     width: 50%;
